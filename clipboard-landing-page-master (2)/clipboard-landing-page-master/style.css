@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+/* <==============================HEADER======================== */
+
+header {
+    background-image: url(./images/bg-header-desktop.png);
+    align-items: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+.content {
+    padding: 4rem;
+    line-height: 2rem;
+}
+.content img {
+    width: 5rem;
+    padding-top: 4rem;
+}
+.content h1 {
+    padding-top: 2rem;
+}
+.content p {
+    padding: 1rem;
+}
+button {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 4rem;
+    margin: 1rem 0.3rem;
+    border: none;
+}
+.ios {
+    background-color: hsl(171, 66%, 44%);
+}
+.mac {
+    background-color: hsl(233, 100%, 69%);
+}
+/* <========================TEXT===============================================================> */
+.text {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 4rem;
+    line-height: 2rem;
+}
+.text h2 {
+    padding-bottom: 1rem;
+}
+.text p {
+    padding-bottom: 2.5rem;
+} 
+   
+/* <===============================FLEXBOX1====================================================> */
+.flexbox1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.box1 {
+    padding: 0rem 10rem 5rem 8rem;
+    /* background-color: blue; */
+    width: 50%;
+    line-height: 2rem;
+    
+    
+}
+.box img {
+    width: 100%;
+}
+.box1 h3{
+    line-height: 2rem;
+}
+.box1 p {
+    padding-bottom: 1rem;
+}
+/* <============================================CONTAINER======================================================> */
+.container1 {
+    align-items: center;
+    text-align: center;
+    padding:6rem 4rem 4rem 4rem;
+}
+.container2 img {
+    width: 50%;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: chartreuse; */
+    padding-bottom: 2rem;
+}
+.container3 {
+    text-align: center;
+    line-height: 2.3rem;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 2rem;
+    margin: 2rem auto;
+    /* background-color: chartreuse; */
+    width: 100%;
+    padding: 6rem;
+}
+.black {
+    padding-right: 4rem;
+    /* background-color: chartreuse;  */
+
+}
+.plain {
+    padding-right: 4rem;
+}
+/* <=======================================ICONS=========================================================> */
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.icons img {
+    width: 50%;
+}
+p{
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5rem;
+}
+/* <=======================================================CLIPBOARD========================================>  */
+.clipboard{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    line-height: 2rem;
+}
+.clipboard h2{
+    padding-top: 4rem;
+
+}
+.clipboard p {
+    padding-bottom: 4rem;
+}
+.clipboard button {
+    margin-bottom: 6em;
+}
+/* <============================================FOOTER=======================================> */
+footer{
+    background-color: rgb(243, 228, 208);
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    line-height: 2rem;
+}
+.foot-logo img {
+    width: 2rem;
+    align-items: center;
+    padding-top: 1.2rem;
+}
+.attribution {
+     font-size: 15px; text-align: center;
+     background-color: white;
+    }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width:420px){
+    .flexbox1 {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .content {
+        padding: 3rem;
+    }
+    .box1 {
+        line-height: 2rem;
+        width: 100%;
+        padding: 3rem;
+    }
+    .contain{
+        flex-direction: column;
+        margin: 0 auto;
+        /* background-color: chartreuse;  */
+        padding: 3rem;
+    }
+    .container1 {
+        padding: 3rem;
+    }
+    .container2 img {
+        width: 80%;
+        margin-left: 10%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* background-color: chartreuse; */
+        padding-bottom: 2rem;
+    }
+    .container3 {
+        padding: 3rem;
+    }
+    .black {
+        padding-right: 0;
+        /* background-color: chartreuse;  */
+    
+    }
+    .plain {
+        padding-right: 0;
+    }
+    .clipboard{
+        padding: 3rem;
+        padding-bottom: 4rem;
+    
+    }
+    .clipboard h2{
+        padding-top: 4rem;
+    
+    }
+    .clipboard p {
+        padding-bottom: 2rem;
+    }
+    .clipboard button {
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .icons {
+        flex-direction: column;
+    }
+    .icons img {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    p{
+        color: hsl(201, 11%, 66%);
+    }
+    .text {
+        padding: 3rem;
+    }
+    
+    button {
+        width: 80%;
+    }
+    .foot{
+        flex-direction: column;
+        justify-content: space-around;
+        line-height: 2rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+     
